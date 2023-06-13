@@ -20,6 +20,9 @@ export default function TabLayout() {
                 name="home"
                 options={{
                     title: "Home",
+                    tabBarActiveTintColor: "#264c59",
+                    tabBarInactiveTintColor: "#fff",
+                    tabBarActiveBackgroundColor: "#acc6c9",
                     tabBarIcon: () => <Ionicons name="home-outline" size={24} color="white" />
                 }}
             />
@@ -27,6 +30,9 @@ export default function TabLayout() {
                 name="second"
                 options={{
                     title: "Tab two",
+                    tabBarActiveTintColor: "#264c59",
+                    tabBarInactiveTintColor: "#fff",
+                    tabBarActiveBackgroundColor: "#acc6c9",
                     tabBarIcon: () => <Ionicons name="albums-outline" size={24} color="white" />
                 }}
             />

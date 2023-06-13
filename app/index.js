@@ -1,5 +1,5 @@
 import { Redirect } from "expo-router";
 
-export default function Start() {
+export default function AppRoot() {
     return <Redirect href="/home" />;
 }

@@ -23,7 +23,7 @@ export default function TabLayout() {
                     tabBarActiveTintColor: "#264c59",
                     tabBarInactiveTintColor: "#fff",
                     tabBarActiveBackgroundColor: "#acc6c9",
-                    tabBarIcon: () => <Ionicons name="home-outline" size={24} color="white" />
+                    tabBarIcon: () => <Ionicons name="home" size={24} color="white" />
                 }}
             />
             <Tabs.Screen
@@ -33,7 +33,7 @@ export default function TabLayout() {
                     tabBarActiveTintColor: "#264c59",
                     tabBarInactiveTintColor: "#fff",
                     tabBarActiveBackgroundColor: "#acc6c9",
-                    tabBarIcon: () => <Ionicons name="albums-outline" size={24} color="white" />
+                    tabBarIcon: () => <Ionicons name="albums" size={24} color="white" />
                 }}
             />
         </Tabs>

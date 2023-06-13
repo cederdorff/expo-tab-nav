@@ -3,8 +3,10 @@ import { StyleSheet, Text, View } from "react-native";
 export default function Home() {
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>Tab One</Text>
-            <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
+            <View style={styles.main}>
+                <Text style={styles.title}>Home Screen</Text>
+                <Text style={styles.subtitle}>This is the first page of your app.</Text>
+            </View>
         </View>
     );
 }
@@ -13,15 +15,20 @@ const styles = StyleSheet.create({
     container: {
         flex: 1,
         alignItems: "center",
-        justifyContent: "center"
+        padding: 24
+    },
+    main: {
+        flex: 1,
+        justifyContent: "center",
+        maxWidth: 960,
+        marginHorizontal: "auto"
     },
     title: {
-        fontSize: 20,
+        fontSize: 64,
         fontWeight: "bold"
     },
-    separator: {
-        marginVertical: 30,
-        height: 1,
-        width: "80%"
+    subtitle: {
+        fontSize: 36,
+        color: "#38434D"
     }
 });
